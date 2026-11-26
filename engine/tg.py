@@ -9,7 +9,7 @@ WD = json.load(open(os.path.join(D, 'a.words.json')))
 FIX = {85: 'Eliot', 86: 'Angueira', 92: 'Día', 94: 'Acción', 96: 'Gracias.'}
 for i, s in FIX.items(): WD[i][0] = s
 def tw(i): return WD[i][1]
-SEG = [('c1.mp4', 0, 7.2, 1.0, 0), ('c2.mp4', 0, 7.6, 1.0, 0), ('c3.mp4', 0, 8.0, 1.0, 0), ('c4.mp4', 0, 6.3, 0.7, 0), ('c4.mp4', 1.0, 6.1, 0.5, 1)]
+SEG = [('c1.mp4', 0, 7.2, 1.0, 0), ('c2.mp4', 0, 7.6, 1.0, 0), ('c3.mp4', 0, 8.0, 1.0, 0), ('c4.mp4', 0, 1.3, 0.45, 0), ('c3.mp4', 0, 8.0, 0.42, 1)]
 XF = 0.6
 T = sum(s[2] / s[3] if s[3] != 1 else s[2] for s in SEG) - XF * (len(SEG) - 1)
 T = round(T, 3)
