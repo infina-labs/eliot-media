@@ -9,7 +9,7 @@ WD = json.load(open(os.path.join(D, 'a.words.json')))
 FIX = {85: 'Eliot', 86: 'Angueira', 92: 'Día', 94: 'Acción', 96: 'Gracias.'}
 for i, s in FIX.items(): WD[i][0] = s
 def tw(i): return WD[i][1]
-SEG = [('c1.mp4', 0, 7.2, 1.0, 0), ('c2.mp4', 0, 7.6, 1.0, 0), ('c3.mp4', 0, 8.0, 1.0, 0), ('c4.mp4', 0, 1.3, 0.45, 0), ('c3.mp4', 0, 8.0, 0.42, 1)]
+SEG = [('c1.mp4', 0, 7.2, 1.0, 0), ('c2.mp4', 0, 7.6, 1.0, 0), ('c3.mp4', 0, 8.0, 1.0, 0, 'crop=760:1351:0:0'), ('c4.mp4', 0, 1.3, 0.45, 0), ('c3.mp4', 0, 8.0, 0.42, 1, 'crop=760:1351:0:0')]
 XF = 0.6
 T = sum(s[2] / s[3] if s[3] != 1 else s[2] for s in SEG) - XF * (len(SEG) - 1)
 T = round(T, 3)
@@ -155,9 +155,10 @@ def compose(base, i):
 
 def build_base(out):
     ins, fl = [], []
-    for k, (f, ss, dur, sp, blur) in enumerate(SEG):
+    for k, sg in enumerate(SEG):
+        f, ss, dur, sp, blur = sg[:5]; crop = sg[5] + ',' if len(sg) > 5 else ''
         ins += ['-ss', str(ss), '-t', str(dur), '-i', os.path.join(D, f)]
-        chain = '[%d:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30' % k
+        chain = ('[%d:v]' % k) + crop + 'scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,setsar=1,fps=30'
         if sp != 1.0: chain += ',setpts=PTS/%s' % sp
         chain += ',eq=saturation=1.06:contrast=1.03,colorbalance=rs=0.03:gs=0.01:bs=-0.03'
         if blur: chain += ',gblur=sigma=28,eq=brightness=-0.05'
