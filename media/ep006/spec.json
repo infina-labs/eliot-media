@@ -1,0 +1,151 @@
+{
+ "T": 37.833333333333336,
+ "words": "/home/claude/eliot-media/media/ep006/words.json",
+ "audio": "/home/claude/eliot-media/media/ep006/a.mp3",
+ "ep": "EP.006",
+ "keys": [
+  "VECINO",
+  "MENOS",
+  "$40",
+  "$250",
+  "ADENTRO",
+  "AIRE",
+  "PLACAS",
+  "CONSUMO",
+  "KILOVATIOS",
+  "ENTENDER"
+ ],
+ "impacts": [
+  9,
+  23,
+  72,
+  86
+ ],
+ "loop_start": 89,
+ "beats": [
+  {
+   "start": 0,
+   "type": "compare",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "left": {
+    "icon": "house",
+    "title": [
+     "TU CASA"
+    ],
+    "lines": [
+     "$250 AL MES"
+    ]
+   },
+   "right": {
+    "icon": "house",
+    "title": [
+     "TU VECINO"
+    ],
+    "lines": [
+     "$40 AL MES"
+    ]
+   },
+   "mid": "VS",
+   "winner": "right"
+  },
+  {
+   "start": 10,
+   "type": "bars",
+   "title": "MISMA CALLE, MISMA CASA",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "rows": [
+    {
+     "label": "CASA A",
+     "value": "$40",
+     "frac": 0.16,
+     "color": "y",
+     "at": 19
+    },
+    {
+     "label": "CASA B",
+     "value": "$250",
+     "frac": 1.0,
+     "color": "r",
+     "at": 23
+    }
+   ]
+  },
+  {
+   "start": 24,
+   "type": "icons",
+   "title": "LO QUE PASA ADENTRO",
+   "items": [
+    {
+     "icon": "people",
+     "label": "PERSONAS",
+     "at": 34
+    },
+    {
+     "icon": "ac",
+     "label": "EL AIRE",
+     "at": 41
+    },
+    {
+     "icon": "fridge",
+     "label": "NEVERA VIEJA",
+     "at": 43
+    },
+    {
+     "icon": "gen",
+     "label": "CALENTADOR",
+     "at": 46
+    }
+   ]
+  },
+  {
+   "start": 48,
+   "type": "house",
+   "glow": 0.8,
+   "pill": "PLACAS A SU MEDIDA",
+   "pill_at": 56
+  },
+  {
+   "start": 62,
+   "type": "bignum",
+   "label": "LA FACTURA MIDE",
+   "value": "kWh",
+   "at": 72,
+   "sub": "NO EL VALOR DE TU CASA",
+   "sub_at": 74
+  },
+  {
+   "start": 77,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "meter",
+     "label": "ENTIENDE TU CONSUMO",
+     "at": 86,
+     "sub": "EL PRIMER PASO",
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿POR QUÉ",
+    "color": "w"
+   },
+   {
+    "text": "TU VECINO",
+    "color": "y"
+   },
+   {
+    "text": "PAGA MENOS",
+    "color": "w"
+   },
+   {
+    "text": "DE LUZ?",
+    "color": "y"
+   }
+  ],
+  "sub": "LO QUE TU FACTURA REALMENTE MIDE."
+ }
+}

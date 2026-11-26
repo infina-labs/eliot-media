@@ -1,0 +1,146 @@
+{
+ "T": 39.266666666666666,
+ "words": "/home/claude/eliot-media/media/ep009/words.json",
+ "audio": "/home/claude/eliot-media/media/ep009/a.mp3",
+ "ep": "EP.009",
+ "keys": [
+  "DESAPARECE",
+  "PRODUCIENDO",
+  "SOL",
+  "GARANTÍA",
+  "FABRICANTE",
+  "MARCAS",
+  "DOCUMENTOS",
+  "CONTRATO",
+  "PREGUNTA"
+ ],
+ "impacts": [
+  12,
+  36,
+  45
+ ],
+ "loop_start": 92,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "panel",
+     "label": "TUS PLACAS",
+     "at": 0,
+     "sub": "¿Y SI LA COMPAÑÍA DESAPARECE?",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 13,
+   "type": "house",
+   "glow": 0.9,
+   "pill": "SIGUEN PRODUCIENDO",
+   "pill_at": 15
+  },
+  {
+   "start": 24,
+   "type": "icons",
+   "title": "LO QUE SÍ PUEDE DESAPARECER",
+   "items": [
+    {
+     "icon": "wrench",
+     "label": "INSTALACIÓN",
+     "at": 28
+    },
+    {
+     "icon": "chart",
+     "label": "MONITOREO",
+     "at": 30
+    },
+    {
+     "icon": "people",
+     "label": "SERVICIO",
+     "at": 32
+    }
+   ]
+  },
+  {
+   "start": 37,
+   "type": "network",
+   "hub": "FABRICANTE",
+   "hub_icon": "shield",
+   "nodes": [
+    {
+     "icon": "panel",
+     "label": "PLACAS",
+     "at": 47
+    },
+    {
+     "icon": "meter",
+     "label": "INVERSOR",
+     "at": 49
+    },
+    {
+     "icon": "batt",
+     "label": "BATERÍA",
+     "at": 52
+    }
+   ]
+  },
+  {
+   "start": 58,
+   "type": "icons",
+   "title": "ANTES DE COMPRAR",
+   "items": [
+    {
+     "icon": "question",
+     "label": "¿QUÉ MARCAS?",
+     "at": 65
+    },
+    {
+     "icon": "shield",
+     "label": "¿QUIÉN CUBRE?",
+     "at": 70
+    },
+    {
+     "icon": "doc",
+     "label": "GUARDA TODO",
+     "at": 75
+    }
+   ]
+  },
+  {
+   "start": 78,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "LEE TU CONTRATO",
+     "at": 84,
+     "sub": "SI LA COMPAÑÍA CIERRA",
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿Y SI TU",
+    "color": "w"
+   },
+   {
+    "text": "COMPAÑÍA",
+    "color": "y"
+   },
+   {
+    "text": "SOLAR",
+    "color": "w"
+   },
+   {
+    "text": "DESAPARECE?",
+    "color": "y"
+   }
+  ],
+  "sub": "LO QUE TE PROTEGE Y LO QUE NO."
+ }
+}

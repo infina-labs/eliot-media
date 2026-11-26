@@ -1,0 +1,153 @@
+{
+ "T": 35.53333333333333,
+ "words": "/home/claude/eliot-media/media/ep008/words.json",
+ "audio": "/home/claude/eliot-media/media/ep008/a.mp3",
+ "ep": "EP.008",
+ "keys": [
+  "PIERDES",
+  "4",
+  "48.",
+  "24.",
+  "PÉRDIDA",
+  "CRECE",
+  "BATERÍA",
+  "LUJO",
+  "PAGASTE",
+  "PREGÚNTATE"
+ ],
+ "impacts": [
+  12,
+  25,
+  52,
+  85
+ ],
+ "loop_start": 92,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "fridge",
+     "label": "TU NEVERA",
+     "at": 0,
+     "sub": "¿CUÁNTO PIERDES SIN LUZ?",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 13,
+   "type": "bars",
+   "title": "COMIDA SEGURA SIN LUZ",
+   "pill": "PUERTA CERRADA · GUÍA USDA",
+   "rows": [
+    {
+     "label": "NEVERA",
+     "value": "4 HORAS",
+     "frac": 0.083,
+     "color": "r",
+     "at": 24
+    },
+    {
+     "label": "CONGELADOR LLENO",
+     "value": "48 HORAS",
+     "frac": 1.0,
+     "color": "y",
+     "at": 31
+    },
+    {
+     "label": "CONGELADOR A LA MITAD",
+     "value": "24 HORAS",
+     "frac": 0.5,
+     "color": "w",
+     "at": 38
+    }
+   ]
+  },
+  {
+   "start": 39,
+   "type": "icons",
+   "title": "SE CONVIERTE EN PÉRDIDA",
+   "items": [
+    {
+     "icon": "x",
+     "label": "CARNE",
+     "at": 43
+    },
+    {
+     "icon": "x",
+     "label": "LECHE",
+     "at": 45
+    },
+    {
+     "icon": "x",
+     "label": "HUEVOS",
+     "at": 48
+    }
+   ]
+  },
+  {
+   "start": 53,
+   "type": "chart",
+   "title": "LO QUE BOTAS EN UN AÑO",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "label": "PÉRDIDA ACUMULADA",
+   "values": [
+    0.1,
+    0.1,
+    0.3,
+    0.3,
+    0.3,
+    0.55,
+    0.55,
+    0.75,
+    0.75,
+    1.0
+   ],
+   "draw_at": 55,
+   "draw_dur": 3.0,
+   "color": "r"
+  },
+  {
+   "start": 71,
+   "type": "network",
+   "hub": "TU NEVERA",
+   "hub_icon": "fridge",
+   "nodes": [
+    {
+     "icon": "panel",
+     "label": "PLACAS",
+     "at": 78
+    },
+    {
+     "icon": "batt",
+     "label": "BATERÍA",
+     "at": 81
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿CUÁNTO",
+    "color": "w"
+   },
+   {
+    "text": "PIERDES",
+    "color": "y"
+   },
+   {
+    "text": "EN TU NEVERA",
+    "color": "w",
+    "size": 190
+   },
+   {
+    "text": "SIN LUZ?",
+    "color": "y"
+   }
+  ],
+  "sub": "EL COSTO QUE NO SALE EN TU FACTURA."
+ }
+}

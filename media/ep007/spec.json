@@ -1,0 +1,161 @@
+{
+ "T": 43.36666666666667,
+ "words": "/home/claude/eliot-media/media/ep007/words.json",
+ "audio": "/home/claude/eliot-media/media/ep007/a.mp3",
+ "ep": "EP.007",
+ "keys": [
+  "CUESTA",
+  "PETRÓLEO",
+  "62",
+  "GAS",
+  "400",
+  "MILLONES",
+  "20",
+  "TECHO",
+  "PREGÚNTATE"
+ ],
+ "impacts": [
+  26,
+  70,
+  84
+ ],
+ "loop_start": 106,
+ "beats": [
+  {
+   "start": 0,
+   "type": "map",
+   "lit": 0.3,
+   "label": "PUERTO RICO"
+  },
+  {
+   "start": 10,
+   "type": "bars",
+   "title": "CAPACIDAD DE GENERACIÓN 2024",
+   "pill": "FUENTE: EIA",
+   "rows": [
+    {
+     "label": "PETRÓLEO",
+     "value": "62%",
+     "frac": 0.62,
+     "color": "r",
+     "at": 26
+    },
+    {
+     "label": "GAS NATURAL",
+     "value": "24%",
+     "frac": 0.24,
+     "color": "w",
+     "at": 38
+    },
+    {
+     "label": "CARBÓN",
+     "value": "8%",
+     "frac": 0.08,
+     "color": "g",
+     "at": 41
+    },
+    {
+     "label": "RENOVABLES",
+     "value": "7%",
+     "frac": 0.07,
+     "color": "y",
+     "at": 43
+    }
+   ]
+  },
+  {
+   "start": 45,
+   "type": "chart",
+   "title": "PRECIO DEL PETRÓLEO",
+   "pill": "ILUSTRATIVO",
+   "label": "SUBE EL PETRÓLEO, SUBE TU FACTURA",
+   "values": [
+    0.35,
+    0.45,
+    0.4,
+    0.6,
+    0.52,
+    0.75,
+    0.62,
+    0.85,
+    0.7,
+    0.95
+   ],
+   "draw_at": 47,
+   "draw_dur": 2.6,
+   "color": "r"
+  },
+  {
+   "start": 58,
+   "type": "bignum",
+   "title": "SOLO EN COMBUSTIBLE",
+   "pill": "FUENTE: NEGOCIADO DE ENERGÍA",
+   "label": "DIC 2025 – FEB 2026",
+   "value": "$400M",
+   "count": 400,
+   "prefix": "$",
+   "suffix": "M",
+   "at": 70,
+   "sub": "EN SOLO TRES MESES",
+   "sub_at": 71
+  },
+  {
+   "start": 74,
+   "type": "house",
+   "glow": 0.8,
+   "pill": "TECHOS: 20% DE LA CAPACIDAD",
+   "pill_at": 84
+  },
+  {
+   "start": 92,
+   "type": "compare",
+   "left": {
+    "icon": "panel",
+    "title": [
+     "TU TECHO"
+    ],
+    "lines": [
+     "NO DEPENDE",
+     "DEL PETRÓLEO"
+    ],
+    "at": 98
+   },
+   "right": {
+    "icon": "fuel",
+    "title": [
+     "PETRÓLEO"
+    ],
+    "lines": [
+     "PRECIO MUNDIAL"
+    ],
+    "at": 103
+   },
+   "mid": ">",
+   "mid_at": 100,
+   "winner": "left",
+   "emph_at": 104
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿CUÁNTO CUESTA",
+    "color": "w",
+    "size": 180
+   },
+   {
+    "text": "PRODUCIR",
+    "color": "y"
+   },
+   {
+    "text": "TU LUZ",
+    "color": "w"
+   },
+   {
+    "text": "EN PR?",
+    "color": "y"
+   }
+  ],
+  "sub": "DE DÓNDE SALE LA ENERGÍA QUE PAGAS."
+ }
+}
