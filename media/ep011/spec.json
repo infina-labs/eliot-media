@@ -1,0 +1,187 @@
+{
+ "T": 36.166666666666664,
+ "words": "/home/claude/eliot-media/media/ep011/words.json",
+ "audio": "/home/claude/eliot-media/media/ep011/a.mp3",
+ "ep": "EP.011",
+ "keys": [
+  "ERROR",
+  "CARO",
+  "CANTIDAD,",
+  "20",
+  "CONSUMO",
+  "CONSUMO,",
+  "13",
+  "PEQUEÑO,",
+  "GRANDE,",
+  "SOMBRA,",
+  "PRIMERO"
+ ],
+ "impacts": [
+  3,
+  13,
+  33
+ ],
+ "loop_start": 91,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "warning",
+     "label": "EL ERROR MÁS CARO",
+     "at": 0,
+     "sub": "AL COMPRAR PLACAS",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 9,
+   "type": "bignum",
+   "label": "«PONME…»",
+   "value": "20 PLACAS",
+   "at": 13,
+   "sub": "¿PARA QUÉ?",
+   "sub_at": 17
+  },
+  {
+   "start": 19,
+   "type": "compare",
+   "left": {
+    "icon": "meter",
+    "title": [
+     "TU",
+     "CONSUMO"
+    ],
+    "at": 33
+   },
+   "right": {
+    "icon": "panel",
+    "title": [
+     "CUÁNTAS",
+     "CABEN"
+    ],
+    "at": 25
+   },
+   "mid": ">",
+   "mid_at": 31,
+   "winner": "left",
+   "emph_at": 35
+  },
+  {
+   "start": 36,
+   "type": "chart",
+   "title": "TU FACTURA · 13 MESES",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "label": "CONSUMO EN kWh",
+   "values": [
+    0.55,
+    0.6,
+    0.5,
+    0.7,
+    0.82,
+    0.9,
+    0.95,
+    0.88,
+    0.75,
+    0.62,
+    0.55,
+    0.5,
+    0.58
+   ],
+   "draw_at": 41,
+   "draw_dur": 3.0
+  },
+  {
+   "start": 51,
+   "type": "compare",
+   "left": {
+    "icon": "panel",
+    "title": [
+     "MUY",
+     "PEQUEÑO"
+    ],
+    "lines": [
+     "SIGUES PAGANDO"
+    ],
+    "at": 55
+   },
+   "right": {
+    "icon": "panel",
+    "title": [
+     "MUY",
+     "GRANDE"
+    ],
+    "lines": [
+     "PAGASTE DE MÁS"
+    ],
+    "at": 62
+   },
+   "mid": "VS",
+   "mid_at": 60,
+   "winner": "none"
+  },
+  {
+   "start": 70,
+   "type": "icons",
+   "title": "TAMBIÉN IMPORTA",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "LA SOMBRA",
+     "at": 73
+    },
+    {
+     "icon": "house",
+     "label": "TU TECHO",
+     "at": 77
+    },
+    {
+     "icon": "chart",
+     "label": "CAMBIOS",
+     "at": 81,
+     "sub": "EN TU CONSUMO"
+    }
+   ]
+  },
+  {
+   "start": 85,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "1. TU CONSUMO",
+     "color": "y",
+     "at": 86
+    },
+    {
+     "text": "2. LAS PLACAS",
+     "color": "w",
+     "at": 89
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "EL ERROR",
+    "color": "w"
+   },
+   {
+    "text": "MÁS CARO",
+    "color": "y"
+   },
+   {
+    "text": "AL COMPRAR",
+    "color": "w",
+    "size": 190
+   },
+   {
+    "text": "PLACAS.",
+    "color": "y"
+   }
+  ],
+  "sub": "PRIMERO TU CONSUMO. DESPUÉS LAS PLACAS."
+ }
+}

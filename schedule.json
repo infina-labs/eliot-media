@@ -72,35 +72,35 @@
    "slug": "ep010",
    "title": "La diferencia entre comprar y alquilar energía solar",
    "publish_at": "2026-11-30T19:43",
-   "status": "pending"
+   "status": "produced"
   },
   {
    "ep": "EP.011",
    "slug": "ep011",
    "title": "El error más caro al comprar placas solares",
    "publish_at": "2026-12-01T12:43",
-   "status": "pending"
+   "status": "produced"
   },
   {
    "ep": "EP.012",
    "slug": "ep012",
    "title": "¿Qué hace realmente Genera PR?",
    "publish_at": "2026-12-01T19:43",
-   "status": "pending"
+   "status": "produced"
   },
   {
    "ep": "EP.013",
    "slug": "ep013",
    "title": "¿Quién controla el precio de tu electricidad?",
    "publish_at": "2026-12-02T12:43",
-   "status": "pending"
+   "status": "produced"
   },
   {
    "ep": "EP.014",
    "slug": "ep014",
    "title": "El poder del Negociado de Energía",
    "publish_at": "2026-12-02T19:43",
-   "status": "pending"
+   "status": "produced"
   }
  ]
 }

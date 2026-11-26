@@ -1,0 +1,167 @@
+{
+ "T": 37.06666666666667,
+ "words": "/home/claude/eliot-media/media/ep013/words.json",
+ "audio": "/home/claude/eliot-media/media/ep013/a.mp3",
+ "ep": "EP.013",
+ "keys": [
+  "CONTROLA",
+  "CADENA.",
+  "COMBUSTIBLE.",
+  "MUNDIAL.",
+  "NEGOCIADO",
+  "3",
+  "4",
+  "TÚ",
+  "CONTESTAR."
+ ],
+ "impacts": [
+  6,
+  53,
+  79
+ ],
+ "loop_start": 99,
+ "beats": [
+  {
+   "start": 0,
+   "type": "network",
+   "hub": "TU FACTURA",
+   "hub_icon": "doc",
+   "nodes": [
+    {
+     "icon": "fuel",
+     "label": "COMBUSTIBLE",
+     "at": null
+    },
+    {
+     "icon": "plant",
+     "label": "GENERA",
+     "at": null
+    },
+    {
+     "icon": "tower",
+     "label": "LUMA",
+     "at": null
+    },
+    {
+     "icon": "gov",
+     "label": "NEGOCIADO",
+     "at": null
+    }
+   ]
+  },
+  {
+   "start": 7,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "NO ES UNA PERSONA",
+     "color": "w",
+     "at": 7
+    },
+    {
+     "text": "ES UNA CADENA",
+     "color": "y",
+     "at": 12
+    }
+   ]
+  },
+  {
+   "start": 15,
+   "type": "chart",
+   "title": "PETRÓLEO Y GAS",
+   "pill": "MERCADO MUNDIAL · ILUSTRATIVO",
+   "label": "PRECIO INTERNACIONAL",
+   "values": [
+    0.4,
+    0.55,
+    0.45,
+    0.7,
+    0.6,
+    0.8,
+    0.5,
+    0.75,
+    0.65,
+    0.9
+   ],
+   "draw_at": 17,
+   "draw_dur": 3.0,
+   "color": "r"
+  },
+  {
+   "start": 40,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "plant",
+     "label": "GENERA",
+     "at": 40,
+     "sub": "OPERA PLANTAS"
+    },
+    {
+     "icon": "tower",
+     "label": "LUMA",
+     "at": 44,
+     "sub": "TE FACTURA"
+    },
+    {
+     "icon": "gov",
+     "label": "NEGOCIADO",
+     "at": 54,
+     "sub": "APRUEBA LA TARIFA",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 57,
+   "type": "bignum",
+   "label": "EL NEGOCIADO REVISA LOS CARGOS",
+   "value": "CADA 3 MESES",
+   "at": 59,
+   "sub": "TU FACTURA PUEDE CAMBIAR 4 VECES AL AÑO",
+   "sub_at": 80,
+   "size": 130
+  },
+  {
+   "start": 84,
+   "type": "icons",
+   "title": "LO QUE CONTROLAS TÚ",
+   "items": [
+    {
+     "icon": "meter",
+     "label": "CUÁNTA USAS",
+     "at": 91,
+     "hl": true
+    },
+    {
+     "icon": "panel",
+     "label": "DE DÓNDE",
+     "at": 95,
+     "sub": "LA SACAS",
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿QUIÉN",
+    "color": "w"
+   },
+   {
+    "text": "CONTROLA",
+    "color": "y"
+   },
+   {
+    "text": "EL PRECIO",
+    "color": "w"
+   },
+   {
+    "text": "DE TU LUZ?",
+    "color": "y"
+   }
+  ],
+  "sub": "NO ES UNA PERSONA. ES UNA CADENA."
+ }
+}

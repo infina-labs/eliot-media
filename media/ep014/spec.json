@@ -1,0 +1,143 @@
+{
+ "T": 39.7,
+ "words": "/home/claude/eliot-media/media/ep014/words.json",
+ "audio": "/home/claude/eliot-media/media/ep014/a.mp3",
+ "ep": "EP.014",
+ "keys": [
+  "ENTIDAD",
+  "NEGOCIADO",
+  "2014",
+  "TARIFAS.",
+  "TRIMESTRE",
+  "CONTRATOS.",
+  "NO.",
+  "$110",
+  "MILLONES",
+  "PÚBLICAS",
+  "CONTROL."
+ ],
+ "impacts": [
+  8,
+  23,
+  69
+ ],
+ "loop_start": 97,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "gov",
+     "label": "NEGOCIADO DE ENERGÍA",
+     "at": 0,
+     "sub": "DECIDE SOBRE TU FACTURA",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 14,
+   "type": "bignum",
+   "label": "NEGOCIADO DE ENERGÍA DE PR",
+   "value": "2014",
+   "at": 23,
+   "sub": "NACE CON LA REFORMA ENERGÉTICA",
+   "sub_at": 26
+  },
+  {
+   "start": 32,
+   "type": "icons",
+   "title": "SUS PODERES",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "APRUEBA",
+     "at": 32,
+     "sub": "LAS TARIFAS"
+    },
+    {
+     "icon": "calendar",
+     "label": "REVISA",
+     "at": 36,
+     "sub": "CADA TRIMESTRE"
+    },
+    {
+     "icon": "check",
+     "label": "EVALÚA",
+     "at": 46,
+     "sub": "CONTRATOS"
+    },
+    {
+     "icon": "shield",
+     "label": "SUPERVISA",
+     "at": 48,
+     "sub": "LUMA Y GENERA"
+    }
+   ]
+  },
+  {
+   "start": 55,
+   "type": "bill",
+   "title": "PROPUESTA DE GENERA PR",
+   "subtitle": "2025",
+   "rows": [
+    {
+     "label": "PEDÍA",
+     "value": "$110M POR ADELANTADO",
+     "at": 63
+    }
+   ],
+   "stamp": "RECHAZADA",
+   "stamp_at": 69
+  },
+  {
+   "start": 75,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "DECISIONES PÚBLICAS",
+     "at": 77,
+     "sub": "ENERGIA.PR.GOV",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 86,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "ENTIENDE QUIÉN DECIDE",
+     "color": "w",
+     "at": 87,
+     "size": 130
+    },
+    {
+     "text": "TOMA EL CONTROL",
+     "color": "y",
+     "at": 94
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "EL PODER",
+    "color": "w"
+   },
+   {
+    "text": "DEL NEGOCIADO",
+    "color": "y",
+    "size": 190
+   },
+   {
+    "text": "DE ENERGÍA",
+    "color": "w"
+   }
+  ],
+  "sub": "QUIÉN DECIDE SOBRE TU FACTURA."
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "T": 40.8,
+ "words": "/home/claude/eliot-media/media/ep012/words.json",
+ "audio": "/home/claude/eliot-media/media/ep012/a.mp3",
+ "ep": "EP.012",
+ "keys": [
+  "GENERA",
+  "DUEÑA",
+  "AUTORIDAD",
+  "AUTORIDAD.",
+  "2023,",
+  "10",
+  "RENOVABLE.",
+  "FORTRESS",
+  "LUMA",
+  "NEGOCIADO",
+  "PREGUNTAR."
+ ],
+ "impacts": [
+  8,
+  38,
+  96
+ ],
+ "loop_start": 103,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "plant",
+     "label": "GENERA PR",
+     "at": 0,
+     "sub": "¿QUÉ HACE REALMENTE?",
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 5,
+   "type": "compare",
+   "left": {
+    "icon": "gov",
+    "title": [
+     "LA AEE"
+    ],
+    "lines": [
+     "DUEÑA DE",
+     "LAS PLANTAS"
+    ],
+    "at": 17
+   },
+   "right": {
+    "icon": "plant",
+    "title": [
+     "GENERA"
+    ],
+    "lines": [
+     "LAS OPERA"
+    ],
+    "at": 5
+   },
+   "mid": "VS",
+   "mid_at": 13,
+   "winner": "left",
+   "emph_at": 19
+  },
+  {
+   "start": 23,
+   "type": "bill",
+   "title": "CONTRATO DE OPERACIÓN",
+   "subtitle": "ACTIVOS LEGADOS DE GENERACIÓN",
+   "rows": [
+    {
+     "label": "DESDE",
+     "value": "JULIO 2023",
+     "at": 24
+    },
+    {
+     "label": "PLAZO",
+     "value": "10 AÑOS",
+     "at": 38
+    },
+    {
+     "label": "ADMINISTRA",
+     "value": "AAPP (P3)",
+     "at": 43
+    }
+   ]
+  },
+  {
+   "start": 49,
+   "type": "icons",
+   "title": "SU TRABAJO",
+   "items": [
+    {
+     "icon": "wrench",
+     "label": "OPERAR",
+     "at": 51,
+     "sub": "Y MANTENER"
+    },
+    {
+     "icon": "plant",
+     "label": "RETIRAR",
+     "at": 56,
+     "sub": "PLANTAS VIEJAS"
+    },
+    {
+     "icon": "sun",
+     "label": "RENOVABLES",
+     "at": 61,
+     "sub": "A MEDIDA QUE ENTRAN"
+    }
+   ]
+  },
+  {
+   "start": 63,
+   "type": "network",
+   "hub": "NEW FORTRESS",
+   "hub_icon": "bank",
+   "nodes": [
+    {
+     "icon": "plant",
+     "label": "GENERA PR",
+     "at": 66
+    },
+    {
+     "icon": "fuel",
+     "label": "GAS NATURAL",
+     "at": 75
+    }
+   ]
+  },
+  {
+   "start": 80,
+   "type": "network",
+   "hub": "TU CASA",
+   "hub_icon": "house",
+   "nodes": [
+    {
+     "icon": "tower",
+     "label": "LUMA · RED",
+     "at": 80
+    },
+    {
+     "icon": "plant",
+     "label": "GENERA · PLANTAS",
+     "at": 87
+    },
+    {
+     "icon": "gov",
+     "label": "NEGOCIADO",
+     "at": 96
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿QUÉ HACE",
+    "color": "w"
+   },
+   {
+    "text": "REALMENTE",
+    "color": "y"
+   },
+   {
+    "text": "GENERA PR?",
+    "color": "w"
+   }
+  ],
+  "sub": "QUIÉN OPERA LAS PLANTAS DE LA AEE."
+ }
+}

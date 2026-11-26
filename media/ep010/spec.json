@@ -1,0 +1,162 @@
+{
+ "T": 34.56666666666667,
+ "words": "/home/claude/eliot-media/media/ep010/words.json",
+ "audio": "/home/claude/eliot-media/media/ep010/a.mp3",
+ "ep": "EP.010",
+ "keys": [
+  "COMPRAR",
+  "ALQUILAR",
+  "TUYO.",
+  "AHORRO",
+  "DUEÑA.",
+  "AÑOS",
+  "INVERTIR.",
+  "SERVICIO.",
+  "FIRMAR",
+  "CORRECTA."
+ ],
+ "impacts": [
+  4,
+  58,
+  63
+ ],
+ "loop_start": 80,
+ "beats": [
+  {
+   "start": 0,
+   "type": "compare",
+   "left": {
+    "icon": "dollar",
+    "title": [
+     "COMPRAR"
+    ],
+    "lines": [
+     "ES TUYO"
+    ]
+   },
+   "right": {
+    "icon": "key",
+    "title": [
+     "ALQUILAR"
+    ],
+    "lines": [
+     "ES DE ELLOS"
+    ]
+   },
+   "mid": "VS",
+   "winner": "none"
+  },
+  {
+   "start": 12,
+   "type": "icons",
+   "title": "CUANDO COMPRAS",
+   "items": [
+    {
+     "icon": "house",
+     "label": "ES TUYO",
+     "at": 21,
+     "hl": true
+    },
+    {
+     "icon": "wrench",
+     "label": "MANTENIMIENTO",
+     "at": 25
+    },
+    {
+     "icon": "dollar",
+     "label": "TODO EL AHORRO",
+     "at": 30,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 35,
+   "type": "icons",
+   "title": "CUANDO ALQUILAS",
+   "items": [
+    {
+     "icon": "key",
+     "label": "LA COMPAÑÍA",
+     "at": 41,
+     "sub": "ES LA DUEÑA"
+    },
+    {
+     "icon": "calendar",
+     "label": "20–25 AÑOS",
+     "at": 49,
+     "sub": "DE MENSUALIDAD"
+    },
+    {
+     "icon": "wrench",
+     "label": "ELLOS",
+     "at": 53,
+     "sub": "SE ENCARGAN"
+    }
+   ]
+  },
+  {
+   "start": 56,
+   "type": "compare",
+   "left": {
+    "icon": "chart",
+    "title": [
+     "INVERTIR"
+    ],
+    "lines": [
+     "COMPRAR"
+    ],
+    "at": 58
+   },
+   "right": {
+    "icon": "doc",
+    "title": [
+     "SERVICIO"
+    ],
+    "lines": [
+     "ALQUILAR"
+    ],
+    "at": 63
+   },
+   "mid": "VS",
+   "mid_at": 59,
+   "winner": "none"
+  },
+  {
+   "start": 64,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "ENTIÉNDELO",
+     "at": 70,
+     "sub": "ANTES DE FIRMAR",
+     "hl": true,
+     "stamp": "LÉELO",
+     "stamp_at": 74
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿COMPRAR",
+    "color": "w"
+   },
+   {
+    "text": "O ALQUILAR",
+    "color": "y"
+   },
+   {
+    "text": "PLACAS",
+    "color": "w"
+   },
+   {
+    "text": "SOLARES?",
+    "color": "y"
+   }
+  ],
+  "sub": "LA DIFERENCIA QUE CAMBIA TODO."
+ }
+}
