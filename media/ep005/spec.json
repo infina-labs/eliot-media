@@ -1,0 +1,114 @@
+{
+ "T": 37.13333333333333,
+ "words": "/home/claude/eliot-media/media/ep005/words.json",
+ "audio": "/home/claude/eliot-media/media/ep005/a.mp3",
+ "ep": "EP.005",
+ "keys": [
+  "DUEÑO",
+  "EFECTIVO",
+  "PRÉSTAMO",
+  "GRAVAMEN",
+  "COMPAÑÍA",
+  "TODO",
+  "INCENTIVOS",
+  "CASA",
+  "FIRMAR",
+  "CONTRATO"
+ ],
+ "impacts": [
+  3,
+  62,
+  72
+ ],
+ "loop_start": 103,
+ "beats": [
+  {
+   "start": 0,
+   "type": "house",
+   "pill": "¿QUIÉN ES EL DUEÑO?",
+   "glow": 0.5
+  },
+  {
+   "start": 17,
+   "type": "icons",
+   "title": "¿QUIÉN ES EL DUEÑO?",
+   "items": [
+    {
+     "icon": "dollar",
+     "label": "EFECTIVO",
+     "at": 20,
+     "sub": "ES TUYO",
+     "hl": true
+    },
+    {
+     "icon": "bank",
+     "label": "PRÉSTAMO",
+     "at": 33,
+     "sub": "TUYO + GRAVAMEN"
+    },
+    {
+     "icon": "doc",
+     "label": "ARRENDAMIENTO",
+     "at": 50,
+     "sub": "DUEÑA: LA COMPAÑÍA"
+    }
+   ]
+  },
+  {
+   "start": 68,
+   "type": "icons",
+   "title": "LO QUE CAMBIA",
+   "items": [
+    {
+     "icon": "wrench",
+     "label": "REPARACIONES",
+     "at": 76
+    },
+    {
+     "icon": "dollar",
+     "label": "INCENTIVOS",
+     "at": 82
+    },
+    {
+     "icon": "house",
+     "label": "VENDER LA CASA",
+     "at": 89
+    }
+   ]
+  },
+  {
+   "start": 90,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "LEE TU CONTRATO",
+     "at": 92,
+     "sub": "ANTES DE FIRMAR",
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿QUIÉN ES",
+    "color": "w"
+   },
+   {
+    "text": "EL DUEÑO",
+    "color": "y"
+   },
+   {
+    "text": "DE TUS",
+    "color": "w"
+   },
+   {
+    "text": "PLACAS?",
+    "color": "y"
+   }
+  ],
+  "sub": "DEPENDE DE CÓMO LAS CONSEGUISTE."
+ }
+}

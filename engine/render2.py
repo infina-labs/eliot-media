@@ -359,7 +359,10 @@ def draw_caps(fr, t):
 
 # ---------- beats ----------
 def W_(i): return WS[i]
-B = [0, W_(12), W_(28), W_(36), W_(45), W_(58), W_(64), W_(81), W_(96), T]
+try:
+    B = [0, W_(12), W_(28), W_(36), W_(45), W_(58), W_(64), W_(81), W_(96), T]
+except IndexError:
+    B = []
 
 def beat_city_intro(t, L):  # 0 -> W12
     lvl = 1 - eio(pr(t, W_(11) + 0.05, 0.75))
