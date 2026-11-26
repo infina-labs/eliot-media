@@ -5,3 +5,5 @@ v.mp4
 list.txt
 audio_cfg.json
 __pycache__/
+ads/*/raw.mp3
+ads/*/stills/
