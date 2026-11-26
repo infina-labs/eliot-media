@@ -1,0 +1,7 @@
+*.f32
+stills/
+p?.mp4
+v.mp4
+list.txt
+audio_cfg.json
+__pycache__/

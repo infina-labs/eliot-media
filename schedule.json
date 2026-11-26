@@ -1,0 +1,106 @@
+{
+ "timezone": "America/Puerto_Rico",
+ "instagram_account_id": "17841405483597181",
+ "windsor_connector": "instagram",
+ "episodes": [
+  {
+   "ep": "EP.001",
+   "slug": "ep001",
+   "title": "¿Quién gana dinero cuando se va la luz?",
+   "publish_at": "2026-11-26T02:55",
+   "status": "published",
+   "media_id": "18357131884255918"
+  },
+  {
+   "ep": "EP.002",
+   "slug": "ep002",
+   "title": "¿Por qué pagas LUMA si tienes placas solares?",
+   "publish_at": "2026-11-26T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.003",
+   "slug": "ep003",
+   "title": "Tu batería no produce electricidad",
+   "publish_at": "2026-11-27T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.004",
+   "slug": "ep004",
+   "title": "La verdad detrás de las placas solares gratis",
+   "publish_at": "2026-11-27T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.005",
+   "slug": "ep005",
+   "title": "¿Quién realmente es dueño de tu sistema solar?",
+   "publish_at": "2026-11-28T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.006",
+   "slug": "ep006",
+   "title": "¿Por qué dos vecinos pagan cantidades diferentes?",
+   "publish_at": "2026-11-28T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.007",
+   "slug": "ep007",
+   "title": "¿Cuánto cuesta producir electricidad en Puerto Rico?",
+   "publish_at": "2026-11-29T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.008",
+   "slug": "ep008",
+   "title": "El dinero que pierde tu nevera durante un apagón",
+   "publish_at": "2026-11-29T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.009",
+   "slug": "ep009",
+   "title": "¿Qué sucede si tu compañía solar desaparece?",
+   "publish_at": "2026-11-30T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.010",
+   "slug": "ep010",
+   "title": "La diferencia entre comprar y alquilar energía solar",
+   "publish_at": "2026-11-30T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.011",
+   "slug": "ep011",
+   "title": "El error más caro al comprar placas solares",
+   "publish_at": "2026-12-01T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.012",
+   "slug": "ep012",
+   "title": "¿Qué hace realmente Genera PR?",
+   "publish_at": "2026-12-01T19:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.013",
+   "slug": "ep013",
+   "title": "¿Quién controla el precio de tu electricidad?",
+   "publish_at": "2026-12-02T12:43",
+   "status": "pending"
+  },
+  {
+   "ep": "EP.014",
+   "slug": "ep014",
+   "title": "El poder del Negociado de Energía",
+   "publish_at": "2026-12-02T19:43",
+   "status": "pending"
+  }
+ ]
+}

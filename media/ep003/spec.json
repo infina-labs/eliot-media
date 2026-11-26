@@ -1,0 +1,146 @@
+{
+ "T": 43.03333333333333,
+ "words": "/home/claude/eliot-media/media/ep003/words.json",
+ "audio": "/home/claude/eliot-media/media/ep003/a.mp3",
+ "ep": "EP.003",
+ "keys": [
+  "NO",
+  "TANQUE",
+  "PLACAS",
+  "RED",
+  "13",
+  "NOCHE",
+  "AIRE",
+  "CERO",
+  "OSCURAS",
+  "ENERGÍA",
+  "RECUERDA"
+ ],
+ "impacts": [
+  2,
+  35,
+  77,
+  90
+ ],
+ "loop_start": 100,
+ "beats": [
+  {
+   "start": 0,
+   "type": "battery",
+   "from": 1.0,
+   "to": 1.0,
+   "label": "SOLO ALMACENA ENERGÍA",
+   "label_at": 0
+  },
+  {
+   "start": 9,
+   "type": "network",
+   "hub": "BATERÍA",
+   "hub_icon": "batt",
+   "nodes": [
+    {
+     "icon": "panel",
+     "label": "TUS PLACAS",
+     "at": 24
+    },
+    {
+     "icon": "tower",
+     "label": "LA RED",
+     "at": 28
+    }
+   ]
+  },
+  {
+   "start": 29,
+   "type": "bignum",
+   "label": "BATERÍA RESIDENCIAL TÍPICA",
+   "value": "13.5 kWh",
+   "at": 35,
+   "sub": "DE CAPACIDAD",
+   "sub_at": 36
+  },
+  {
+   "start": 40,
+   "type": "icons",
+   "title": "APAGÓN DE NOCHE",
+   "items": [
+    {
+     "icon": "moon",
+     "label": "DE NOCHE",
+     "at": 44
+    },
+    {
+     "icon": "fridge",
+     "label": "NEVERA",
+     "at": 53
+    },
+    {
+     "icon": "fan",
+     "label": "ABANICOS",
+     "at": 55
+    },
+    {
+     "icon": "bulb",
+     "label": "LUCES",
+     "at": 57
+    }
+   ]
+  },
+  {
+   "start": 58,
+   "type": "battery",
+   "from": 0.8,
+   "to": 0.0,
+   "drain_at": 62,
+   "drain_dur": 5.4,
+   "label": "SIN SOL NO SE RECARGA",
+   "label_at": 69
+  },
+  {
+   "start": 81,
+   "type": "compare",
+   "left": {
+    "icon": "meter",
+    "title": [
+     "TU",
+     "CONSUMO"
+    ],
+    "lines": [
+     "+ PLACAS PARA",
+     "RECARGAR"
+    ],
+    "at": 91
+   },
+   "right": {
+    "icon": "batt",
+    "title": [
+     "MÁS",
+     "BATERÍAS"
+    ],
+    "at": 84
+   },
+   "mid": ">",
+   "mid_at": 90,
+   "winner": "left",
+   "emph_at": 95
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "TU BATERÍA",
+    "color": "w"
+   },
+   {
+    "text": "NO PRODUCE",
+    "color": "y"
+   },
+   {
+    "text": "ELECTRICIDAD.",
+    "color": "w",
+    "size": 190
+   }
+  ],
+  "sub": "LO QUE NADIE TE EXPLICA DE LAS BATERÍAS."
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "T": 40.8,
+ "words": "/home/claude/eliot-media/media/ep004/words.json",
+ "audio": "/home/claude/eliot-media/media/ep004/a.mp3",
+ "ep": "EP.004",
+ "keys": [
+  "GRATIS",
+  "CONTRATO",
+  "AÑOS",
+  "DUEÑO",
+  "COMPAÑÍA",
+  "AUMENTOS",
+  "INCENTIVOS",
+  "VENDES",
+  "PAGARLO",
+  "LEER",
+  "FIRMAR",
+  "OFRECER"
+ ],
+ "impacts": [
+  5,
+  18,
+  47,
+  99
+ ],
+ "loop_start": 105,
+ "beats": [
+  {
+   "start": 0,
+   "type": "house",
+   "bill": true,
+   "bill_amount": "$0?",
+   "glow": 0.5
+  },
+  {
+   "start": 6,
+   "type": "bill",
+   "title": "CONTRATO SOLAR",
+   "subtitle": "“CERO INVERSIÓN”",
+   "rows": [
+    {
+     "label": "TIPO",
+     "value": "ARRENDAMIENTO / PPA",
+     "at": 22
+    },
+    {
+     "label": "PLAZO",
+     "value": "20 – 25 AÑOS",
+     "at": 35
+    }
+   ],
+   "pill": "NO ES GRATIS",
+   "pill_at": 18
+  },
+  {
+   "start": 39,
+   "type": "compare",
+   "left": {
+    "icon": "house",
+    "title": [
+     "TÚ"
+    ],
+    "lines": [
+     "USAS EL SISTEMA"
+    ],
+    "at": 39
+   },
+   "right": {
+    "icon": "key",
+    "title": [
+     "LA",
+     "COMPAÑÍA"
+    ],
+    "lines": [
+     "ES LA DUEÑA"
+    ],
+    "at": 47
+   },
+   "mid": "VS",
+   "mid_at": 45,
+   "winner": "right",
+   "emph_at": 48
+  },
+  {
+   "start": 50,
+   "type": "chart",
+   "title": "TU MENSUALIDAD",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "label": "AUMENTO CADA AÑO",
+   "values": [
+    0.3,
+    0.34,
+    0.38,
+    0.42,
+    0.47,
+    0.52,
+    0.57,
+    0.63,
+    0.69,
+    0.76
+   ],
+   "draw_at": 56,
+   "draw_dur": 2.6
+  },
+  {
+   "start": 60,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "dollar",
+     "label": "INCENTIVOS",
+     "sub": "DEL SISTEMA",
+     "at": 61
+    },
+    {
+     "icon": "key",
+     "label": "EL DUEÑO",
+     "sub": "SE LOS QUEDA",
+     "at": 67,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 74,
+   "type": "icons",
+   "title": "SI VENDES TU CASA",
+   "items": [
+    {
+     "icon": "house",
+     "label": "TU CASA",
+     "at": 76
+    },
+    {
+     "icon": "people",
+     "label": "TRANSFERIR",
+     "sub": "AL COMPRADOR",
+     "at": 84
+    },
+    {
+     "icon": "dollar",
+     "label": "O PAGARLO",
+     "at": 88,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 89,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "LEE EL CONTRATO",
+     "sub": "ANTES DE FIRMAR",
+     "at": 91,
+     "hl": true,
+     "stamp": "ANTES DE FIRMAR",
+     "stamp_at": 104
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "PLACAS",
+    "color": "w"
+   },
+   {
+    "text": "SOLARES",
+    "color": "y"
+   },
+   {
+    "text": "¿REALMENTE",
+    "color": "w",
+    "size": 190
+   },
+   {
+    "text": "GRATIS?",
+    "color": "y"
+   }
+  ],
+  "sub": "LO QUE DEBES SABER ANTES DE FIRMAR."
+ }
+}

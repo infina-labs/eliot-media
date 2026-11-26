@@ -7,7 +7,7 @@ cfg = json.load(open(os.environ.get('REEL_CFG', '/home/claude/reel/cfg.json')))
 T = cfg['T']; NF = int(round(T * FPS))
 WD = json.load(open(cfg['words']))
 WS = [w[1] for w in WD]
-A = '/home/claude/assets/'
+A = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets') + '/'
 Y = (255, 196, 0); YD = (212, 155, 0); K = (8, 10, 13); WH = (255, 255, 255); G = (25, 29, 35)
 GR = (150, 156, 168); DIM = (72, 76, 86); RED = (230, 57, 70); LINE = (46, 51, 60)
 CX, CY = 540, 790   # visual center
