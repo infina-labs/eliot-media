@@ -7,3 +7,8 @@ audio_cfg.json
 __pycache__/
 ads/*/raw.mp3
 ads/*/stills/
+specials/*/base.mp4
+specials/*/peek/
+specials/*/sheet*.jpg
+specials/*/music_preview.mp3
+ads/*/sheet*.jpg
