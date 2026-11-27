@@ -309,5 +309,12 @@
    }
   ],
   "sub": "LO QUE DEBES SABER ANTES DE FIRMAR."
+ },
+ "sfx_gain": {
+  "whoosh": 0.0,
+  "impact": 0.0,
+  "riser": 0.0,
+  "end_impact": 0.0,
+  "pop": 0.15
  }
 }

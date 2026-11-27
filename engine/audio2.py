@@ -49,10 +49,11 @@ def riser(d):
     return (lp_noise(n, 0.01, 0.5) + np.sin(2 * np.pi * np.cumsum(200 + 600 * (t / d) ** 2) / SR) * 0.3) * (t / d) ** 2
 W1 = whoosh()
 sfx = cfg['sfx']
-for tc in sfx.get('whoosh', []): add(W1, tc - 0.3, 0.35, rng.uniform(-0.4, 0.4))
-for tc in sfx.get('impact', []): add(impact(), tc, 0.4)
-for tc in sfx.get('pop', []): add(pop(), tc, 0.22, rng.uniform(-0.5, 0.5))
-add(riser(1.6), T - 1.7, 0.30); add(impact(), T - 0.1, 0.55)
+G = dict({'whoosh': 0.35, 'impact': 0.4, 'pop': 0.22, 'riser': 0.30, 'end_impact': 0.55}, **cfg.get('sfx_gain', {}))
+for tc in sfx.get('whoosh', []): add(W1, tc - 0.3, G['whoosh'], rng.uniform(-0.4, 0.4))
+for tc in sfx.get('impact', []): add(impact(), tc, G['impact'])
+for tc in sfx.get('pop', []): add(pop(), tc, G['pop'], rng.uniform(-0.5, 0.5))
+add(riser(1.6), T - 1.7, G['riser']); add(impact(), T - 0.1, G['end_impact'])
 voice = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', cfg['audio'], '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True).stdout, np.float32)
 v = np.zeros(N, np.float32); m = min(N, len(voice)); v[:m] = voice[:m]
 fl = int(0.03 * SR); v[N - fl:] *= np.linspace(1, 0, fl)
