@@ -1,0 +1,313 @@
+{
+ "T": 59.06666666666667,
+ "words": "/home/claude/eliot-media/specials/garantias/words.json",
+ "audio": "/home/claude/eliot-media/specials/garantias/a.mp3",
+ "ep": "ESPECIAL",
+ "keys": [
+  "GARANTÍA",
+  "EQUIVOCADA",
+  "LEASING",
+  "DUEÑO",
+  "CONTRATO",
+  "SUNSTRONG",
+  "SUNRUN",
+  "FIRMAR",
+  "AÑOS",
+  "RESPONDE",
+  "DIFERENCIA"
+ ],
+ "impacts": [
+  12,
+  32,
+  64,
+  167
+ ],
+ "loop_start": 170,
+ "beats": [
+  {
+   "start": 0,
+   "type": "icons",
+   "title": "¡ESTÁS RECLAMANDO MAL!",
+   "items": [
+    {
+     "icon": "panel",
+     "label": "TUS PLACAS",
+     "at": 7
+    },
+    {
+     "icon": "warning",
+     "label": "GARANTÍA",
+     "at": 4,
+     "hl": true,
+     "stamp": "EQUIVOCADA"
+    }
+   ]
+  },
+  {
+   "start": 13,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "UNO DE LOS ERRORES",
+     "color": "w",
+     "size": 120,
+     "at": 15
+    },
+    {
+     "text": "MÁS COMUNES",
+     "color": "y",
+     "size": 150,
+     "at": 19
+    },
+    {
+     "text": "EN PUERTO RICO",
+     "color": "w",
+     "size": 110,
+     "at": 22
+    }
+   ]
+  },
+  {
+   "start": 24,
+   "type": "icons",
+   "title": "¿QUIÉN ES EL DUEÑO?",
+   "pill": "LEASING SOLAR",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "LEASING",
+     "at": 27
+    },
+    {
+     "icon": "people",
+     "label": "TÚ",
+     "sub": "NO ERES EL DUEÑO",
+     "at": 30,
+     "hl": true
+    },
+    {
+     "icon": "wrench",
+     "label": "INSTALADOR",
+     "sub": "TAMPOCO NECESARIAMENTE",
+     "at": 40
+    }
+   ]
+  },
+  {
+   "start": 43,
+   "type": "network",
+   "hub": "TU CONTRATO",
+   "hub_icon": "doc",
+   "nodes": [
+    {
+     "icon": "wrench",
+     "label": "SERVICIO",
+     "at": 47
+    },
+    {
+     "icon": "shield",
+     "label": "GARANTÍAS",
+     "at": 50
+    }
+   ]
+  },
+  {
+   "start": 57,
+   "type": "compare",
+   "pill": "CUENTAS TRANSFERIDAS",
+   "left": {
+    "icon": "doc",
+    "title": [
+     "SUNNOVA"
+    ],
+    "lines": [
+     "ANTES"
+    ],
+    "at": 61
+   },
+   "right": {
+    "icon": "check",
+    "title": [
+     "SUNSTRONG"
+    ],
+    "lines": [
+     "ADMINISTRA",
+     "TU CUENTA HOY"
+    ],
+    "at": 64
+   },
+   "mid": ">",
+   "mid_at": 62,
+   "winner": "right",
+   "emph_at": 65
+  },
+  {
+   "start": 68,
+   "type": "icons",
+   "title": "VERIFICA CON TU PROVEEDOR",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "SUNRUN",
+     "at": 73
+    },
+    {
+     "icon": "doc",
+     "label": "ENFIN",
+     "at": 74
+    },
+    {
+     "icon": "doc",
+     "label": "SUNVIDA",
+     "at": 75
+    },
+    {
+     "icon": "doc",
+     "label": "LIGHTREACH",
+     "at": 77
+    }
+   ]
+  },
+  {
+   "start": 81,
+   "type": "network",
+   "hub": "PROVEEDOR",
+   "hub_icon": "shield",
+   "nodes": [
+    {
+     "icon": "wrench",
+     "label": "INSTALADOR ORIGINAL",
+     "at": 85
+    },
+    {
+     "icon": "people",
+     "label": "TÉCNICO AUTORIZADO",
+     "at": 90
+    }
+   ]
+  },
+  {
+   "start": 95,
+   "type": "icons",
+   "title": "MI PREFERENCIA",
+   "pill": "OPINIÓN PERSONAL",
+   "items": [
+    {
+     "icon": "check",
+     "label": "SUNRUN",
+     "at": 96,
+     "hl": true
+    },
+    {
+     "icon": "chart",
+     "label": "TAMAÑO",
+     "at": 105
+    },
+    {
+     "icon": "house",
+     "label": "EE.UU. Y PR",
+     "sub": "PRESENCIA",
+     "at": 110
+    }
+   ]
+  },
+  {
+   "start": 115,
+   "type": "icons",
+   "title": "ANTES DE FIRMAR, INVESTIGA",
+   "items": [
+    {
+     "icon": "key",
+     "label": "DUEÑO",
+     "sub": "DEL EQUIPO",
+     "at": 131
+    },
+    {
+     "icon": "shield",
+     "label": "GARANTÍAS",
+     "sub": "QUIÉN RESPONDE",
+     "at": 138,
+     "hl": true
+    },
+    {
+     "icon": "calendar",
+     "label": "¿QUIÉN ESTARÁ?",
+     "sub": "A LARGO PLAZO",
+     "at": 141
+    }
+   ]
+  },
+  {
+   "start": 145,
+   "type": "bignum",
+   "label": "LA VIGENCIA DE TU CONTRATO",
+   "value": "25 AÑOS",
+   "at": 148,
+   "count": 25,
+   "suffix": " AÑOS",
+   "count_dur": 1.6,
+   "sub": "15 · 20 · 25 SEGÚN TU CONTRATO",
+   "sub_at": 151
+  },
+  {
+   "start": 153,
+   "type": "compare",
+   "pill": "NO ES LO MISMO",
+   "left": {
+    "icon": "wrench",
+    "title": [
+     "INSTALAR"
+    ],
+    "lines": [
+     "UN DÍA"
+    ],
+    "at": 158
+   },
+   "right": {
+    "icon": "shield",
+    "title": [
+     "GARANTIZAR"
+    ],
+    "lines": [
+     "DURANTE TODO",
+     "EL CONTRATO"
+    ],
+    "at": 167
+   },
+   "mid": "VS",
+   "mid_at": 162,
+   "winner": "right",
+   "emph_at": 167
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "¿QUIÉN RESPONDE",
+    "color": "w",
+    "size": 170
+   },
+   {
+    "text": "POR TUS PLACAS",
+    "color": "w",
+    "size": 170
+   },
+   {
+    "text": "SOLARES?",
+    "color": "w",
+    "size": 170
+   },
+   {
+    "text": "NO SIEMPRE ES",
+    "color": "y",
+    "size": 170
+   },
+   {
+    "text": "TU INSTALADOR",
+    "color": "y",
+    "size": 170
+   }
+  ],
+  "sub": "LO QUE DEBES SABER ANTES DE FIRMAR."
+ }
+}

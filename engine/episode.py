@@ -435,7 +435,7 @@ def make_cover(path):
     fr = R.BG.copy(); d = ImageDraw.Draw(fr)
     d.rectangle([90, 250, 190, 262], fill=Y)
     fr.alpha_composite(txt('EL NEGOCIO DE LA ENERGÍA', 'Bold', 30, Y, track=7), (86, 286))
-    ep = txt('EP. ' + SPEC['ep'].split('.')[-1], 'SemiBold', 30, WH); fr.alpha_composite(ep, (W - 90 - ep.width, 286))
+    ep = txt(('EP. ' + SPEC['ep'].split('.')[-1]) if '.' in SPEC['ep'] else SPEC['ep'], 'SemiBold', 30, WH); fr.alpha_composite(ep, (W - 90 - ep.width, 286))
     y = 400
     for ln in SPEC['cover']['lines']:
         col = Y if ln.get('color') == 'y' else WH; sz = ln.get('size', 210)

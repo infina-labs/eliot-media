@@ -83,7 +83,7 @@ def make_header():
     d.rectangle([60, 30, 104, 34], fill=Y)
     im.alpha_composite(txt('ELIOT ANGUEIRA', 'Bold', 24, (235, 236, 240), track=6), (56, 48))
     im.alpha_composite(txt('EL NEGOCIO DE LA ENERGÍA', 'SemiBold', 19, YD, track=5), (57, 86))
-    ep = txt('EP. ' + cfg.get('ep', 'EP.001').split('.')[-1], 'SemiBold', 22, GR, track=4)
+    _e = cfg.get('ep', 'EP.001'); ep = txt(('EP. ' + _e.split('.')[-1]) if '.' in _e else _e, 'SemiBold', 22, GR, track=4)
     im.alpha_composite(ep, (W - 60 - ep.width, 50))
     return im
 HEADER = make_header()
