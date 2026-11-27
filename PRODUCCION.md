@@ -17,6 +17,12 @@ Eliot dio control total: producir y publicar sin pedir aprobación. Profit Formu
 - No eliminar publicaciones con pocas visualizaciones.
 - Replicar los temas, formatos y ganchos de los reels más exitosos.
 
+## Calendario automático 4 al día (28-nov al 11-dic-2026)
+- Horarios (hora PR): 08:43, 12:43, 16:43, 19:43. EP.001–EP.014 tienen cada uno su propia tarea de publicación; EP.015–EP.060 los publica la tarea recurrente «Eliot · Publicador 4/día».
+- `pillar` en schedule.json: A = 70 % autoridad, C = 20 % comercial educativo, X = 10 % experimental. Status: `planned` → `produced` → `published`.
+- La tarea «Eliot · Producción diaria» produce de madrugada los episodios del día. Mínimo 3,000 créditos de ElevenLabs de margen; si no alcanza, avisar y no generar.
+- Nunca publicar dos veces: antes de publicar, `git pull` y revisar el status en schedule.json.
+
 ## Archivos
 - `schedule.json`: calendario (hora Puerto Rico), estado de cada episodio. Actualizar `status` a `produced` / `published` y guardar `media_id`.
 - `media/epNNN/`: `video.mp4`, `cover.jpg`, `caption.txt`, `spec.json`, `script.txt`, `words.json`, `a.mp3`.
