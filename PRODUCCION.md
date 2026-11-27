@@ -7,7 +7,15 @@ Eliot dio control total: producir y publicar sin pedir aprobación. Profit Formu
 - Fondo negro cálido (#080A0D), amarillo #FFC400 / #D49B00, blanco. Estilo limpio tipo infografía (una ilustración protagonista por momento), subtítulos palabra por palabra.
 - Voz: ElevenLabs **"Ivan - Puerto Rico"** `voice_id = zwDSHuqO0tEVwNUuHmR1`, modelo `eleven_v4`, flow `e7WXhO7hgy8aZtCLpJyQ`. Usar la toma A (primera).
 - Duración 40–50 s. **Guion circular**: la última frase lleva de vuelta a la primera (loop).
+- **Formato**: vertical 9:16, a sangre completa, sin bordes, márgenes ni marcas de agua. En todo spec nuevo poner `"full_bleed": true` (fondo con retícula y brillo en movimiento; sin él Instagram marca "Your video has a border").
 - Sin CTA en el video. CTA solo en el caption: `👇 Comenta la palabra "CONSUMO" y te envío la Calculadora de Consumo.` (NO poner el website en el caption).
+
+## Estrategia de contenido (definida por Eliot)
+- **70 % autoridad y viralidad**: educación solar, controversias, mitos, noticias, errores de los consumidores, investigaciones y realidades de la industria energética de Puerto Rico (LUMA, Genera PR, Negociado de Energía, Junta de Control Fiscal, compañías solares). Objetivo: viralidad y posicionar a ELIOT ANGUEIRA como autoridad.
+- **20 % comercial educativo**: casos reales, análisis de facturas, comparaciones de leasing y financiamiento, dimensionamiento de sistemas solares, beneficios económicos. Objetivo: prospectos y ventas para Profit Solar Energy.
+- **10 % experimental**: formatos nuevos, storytelling, humor, animaciones, simulaciones, tendencias, opiniones personales. Objetivo: alcance y diferenciar la marca personal.
+- No eliminar publicaciones con pocas visualizaciones.
+- Replicar los temas, formatos y ganchos de los reels más exitosos.
 
 ## Archivos
 - `schedule.json`: calendario (hora Puerto Rico), estado de cada episodio. Actualizar `status` a `produced` / `published` y guardar `media_id`.
