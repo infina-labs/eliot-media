@@ -316,5 +316,6 @@
   "riser": 0.0,
   "end_impact": 0.0,
   "pop": 0.15
- }
+ },
+ "full_bleed": true
 }

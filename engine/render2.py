@@ -71,6 +71,26 @@ def make_bg():
     img = img * (1 - v[..., None])
     return Image.fromarray(np.clip(img, 0, 255).astype(np.uint8)).convert('RGBA')
 BG = make_bg()
+FULL = bool(cfg.get('full_bleed'))
+if FULL:
+    # fondo a sangre completa: sin viñeta, retícula de puntos que se desplaza y brillo que se mueve (evita que IG lo detecte como borde)
+    _yy, _xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    _base = np.array(K, np.float32) + np.zeros((H, W, 3), np.float32) + 10
+    BG_FULL = Image.fromarray(np.clip(_base, 0, 255).astype(np.uint8)).convert('RGBA')
+    GRID = Image.new('RGBA', (W + 120, H + 120), (0, 0, 0, 0)); _gd = ImageDraw.Draw(GRID)
+    for gx in range(0, W + 120, 60):
+        for gy in range(0, H + 120, 60): _gd.ellipse([gx - 2.5, gy - 2.5, gx + 2.5, gy + 2.5], fill=(255, 196, 0, 46))
+    _gy, _gx = np.mgrid[0:1300, 0:1300].astype(np.float32)
+    _g = np.clip(1 - np.sqrt(((_gx - 650) / 650) ** 2 + ((_gy - 650) / 650) ** 2), 0, 1) ** 1.6
+    GLOW = Image.fromarray(np.dstack([np.full_like(_g, 255), np.full_like(_g, 180), np.zeros_like(_g), _g * 90]).astype(np.uint8), 'RGBA')
+    def bg_full(t):
+        fr = BG_FULL.copy()
+        for k, (ax, ay, sp, ph) in enumerate(((300, 420, 0.13, 0.0), (330, 520, 0.09, 2.1))):
+            gx = int(540 + ax * math.sin(t * sp * 6.283 + ph) - 650); gy = int((560 if k == 0 else 1360) + ay * math.cos(t * sp * 5.0 + ph) * 0.5 - 650)
+            lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); lay.paste(GLOW, (gx, gy)); fr.alpha_composite(lay)
+        off = int((t * 18) % 60)
+        fr.alpha_composite(GRID.crop((off, off, off + W, off + H)))
+        return fr
 rng = np.random.default_rng(3)
 GRAIN = []
 for _ in range(4):
@@ -615,7 +635,7 @@ def streaks(fr, t):
 
 def frame(i):
     t = i / FPS
-    fr = BG.copy()
+    fr = bg_full(t) if FULL else BG.copy()
     k = max(j for j in range(len(BEATS)) if B[j] <= t) if t < T else len(BEATS) - 1
     k = min(k, len(BEATS) - 1)
     # crossfade near boundaries (not at loop point)
