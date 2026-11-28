@@ -1,0 +1,233 @@
+{
+ "T": 47.733333333333334,
+ "words": "/home/claude/eliot-media/media/ep016/words.json",
+ "audio": "/home/claude/eliot-media/media/ep016/a.mp3",
+ "ep": "EP.016",
+ "keys": [
+  "LÍNEA",
+  "TOTAL.",
+  "KILOVATIOS",
+  "FIJO.",
+  "AJUSTE,",
+  "VENCIMIENTO.",
+  "PRECIO,",
+  "ACTUAR.",
+  "SOLAR"
+ ],
+ "impacts": [
+  12,
+  53,
+  104
+ ],
+ "loop_start": 133,
+ "beats": [
+  {
+   "start": 0,
+   "type": "bill",
+   "title": "FACTURA DE LUZ",
+   "subtitle": "¿QUÉ MIRAS PRIMERO?",
+   "rows": [
+    {
+     "label": "CONSUMO",
+     "value": "650 kWh",
+     "at": 0
+    },
+    {
+     "label": "TOTAL",
+     "value": "$215",
+     "at": 0
+    }
+   ],
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "pill_at": 0
+  },
+  {
+   "start": 13,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "CASI NADIE",
+     "color": "w",
+     "at": 14
+    },
+    {
+     "text": "LA MIRA",
+     "color": "y",
+     "at": 16
+    }
+   ]
+  },
+  {
+   "start": 18,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "doc",
+     "label": "LÉELA ASÍ",
+     "sub": "EN 4 PASOS",
+     "at": 19,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 23,
+   "type": "icons",
+   "title": "PASO 1",
+   "items": [
+    {
+     "icon": "meter",
+     "label": "TUS kWh",
+     "sub": "LO QUE CONSUMISTE",
+     "at": 24,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 33,
+   "type": "bars",
+   "title": "TUS kWh",
+   "pill": "EJEMPLO ILUSTRATIVO",
+   "rows": [
+    {
+     "label": "ESTE MES",
+     "value": "650 kWh",
+     "frac": 0.65,
+     "color": "y",
+     "at": 33
+    },
+    {
+     "label": "MES PASADO",
+     "value": "610 kWh",
+     "frac": 0.61,
+     "color": "w",
+     "at": 40
+    },
+    {
+     "label": "MISMO MES, AÑO PASADO",
+     "value": "700 kWh",
+     "frac": 0.7,
+     "color": "w",
+     "at": 46
+    }
+   ]
+  },
+  {
+   "start": 50,
+   "type": "icons",
+   "title": "PASO 2",
+   "items": [
+    {
+     "icon": "dollar",
+     "label": "CARGO FIJO",
+     "sub": "AUNQUE NO PRENDAS NADA",
+     "at": 52,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 61,
+   "type": "icons",
+   "title": "PASO 3 · CLÁUSULAS DE AJUSTE",
+   "items": [
+    {
+     "icon": "fuel",
+     "label": "COMBUSTIBLE",
+     "at": 67
+    },
+    {
+     "icon": "tower",
+     "label": "COMPRA DE ENERGÍA",
+     "at": 69
+    },
+    {
+     "icon": "calendar",
+     "label": "CADA 3 MESES",
+     "sub": "NO DEPENDEN DE TI",
+     "at": 75,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 83,
+   "type": "icons",
+   "title": "PASO 4",
+   "items": [
+    {
+     "icon": "calendar",
+     "label": "TOTAL",
+     "sub": "Y FECHA DE VENCIMIENTO",
+     "at": 83,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 92,
+   "type": "compare",
+   "left": {
+    "icon": "dollar",
+    "title": [
+     "TOTAL",
+     "SUBE"
+    ],
+    "lines": [
+     "kWh IGUAL",
+     "ES EL PRECIO"
+    ],
+    "at": 92
+   },
+   "right": {
+    "icon": "meter",
+    "title": [
+     "kWh",
+     "SUBEN"
+    ],
+    "lines": [
+     "AHÍ PUEDES",
+     "ACTUAR"
+    ],
+    "at": 108
+   },
+   "mid": "VS",
+   "mid_at": 104,
+   "winner": "right",
+   "emph_at": 113
+  },
+  {
+   "start": 116,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "panel",
+     "label": "SISTEMA SOLAR",
+     "sub": "DISEÑADO CON TUS kWh",
+     "at": 126,
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "CÓMO LEER",
+    "color": "w"
+   },
+   {
+    "text": "TU FACTURA",
+    "color": "y",
+    "size": 190
+   },
+   {
+    "text": "DE LUZ",
+    "color": "w"
+   }
+  ],
+  "sub": "EN 60 SEGUNDOS."
+ },
+ "full_bleed": true
+}
