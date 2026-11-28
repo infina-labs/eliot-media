@@ -1,0 +1,204 @@
+{
+ "T": 49.43333333333333,
+ "words": "/home/claude/eliot-media/media/ep015/words.json",
+ "audio": "/home/claude/eliot-media/media/ep015/a.mp3",
+ "ep": "EP.015",
+ "keys": [
+  "MISMO",
+  "SUBIÓ.",
+  "KILOVATIO",
+  "34",
+  "$271.",
+  "$42",
+  "COMBUSTIBLE.",
+  "TÚ,",
+  "ECUACIÓN."
+ ],
+ "impacts": [
+  14,
+  66,
+  91
+ ],
+ "loop_start": 120,
+ "beats": [
+  {
+   "start": 0,
+   "type": "bill",
+   "title": "FACTURA DE LUZ",
+   "subtitle": "MISMO CONSUMO, OTRO TOTAL",
+   "rows": [
+    {
+     "label": "CONSUMO",
+     "value": "800 kWh",
+     "at": 0
+    },
+    {
+     "label": "TOTAL",
+     "old": "$229",
+     "value": "$271",
+     "at": 0,
+     "new_at": 13
+    }
+   ]
+  },
+  {
+   "start": 15,
+   "type": "statement",
+   "lines": [
+    {
+     "text": "NO PAGAS UNA",
+     "color": "w",
+     "at": 18,
+     "size": 130
+    },
+    {
+     "text": "CANTIDAD FIJA",
+     "color": "w",
+     "at": 21,
+     "size": 130
+    },
+    {
+     "text": "PAGAS POR kWh",
+     "color": "y",
+     "at": 24,
+     "size": 140
+    }
+   ]
+  },
+  {
+   "start": 29,
+   "type": "bignum",
+   "label": "EL PRECIO DEL KILOVATIO HORA",
+   "value": "CAMBIA",
+   "at": 31,
+   "sub": "CADA 3 MESES",
+   "sub_at": 35,
+   "size": 170
+  },
+  {
+   "start": 39,
+   "type": "bars",
+   "title": "ENERGÍA RESIDENCIAL 2026",
+   "pill": "CENTAVOS POR kWh",
+   "rows": [
+    {
+     "label": "ABRIL – JUNIO",
+     "value": "27.2¢",
+     "frac": 0.72,
+     "color": "w",
+     "at": 40
+    },
+    {
+     "label": "JULIO – SEPTIEMBRE",
+     "value": "28.6¢",
+     "frac": 0.76,
+     "color": "w",
+     "at": 56
+    },
+    {
+     "label": "DESDE OCTUBRE",
+     "value": "33.9¢",
+     "frac": 0.9,
+     "color": "r",
+     "at": 64
+    }
+   ]
+  },
+  {
+   "start": 74,
+   "type": "bill",
+   "title": "MISMO CONSUMO",
+   "subtitle": "CLIENTE RESIDENCIAL SIN SUBSIDIO",
+   "rows": [
+    {
+     "label": "CONSUMO",
+     "value": "800 kWh",
+     "at": 75
+    },
+    {
+     "label": "ANTES",
+     "value": "$229",
+     "at": 83
+    },
+    {
+     "label": "DESDE OCTUBRE",
+     "value": "$271",
+     "at": 87
+    }
+   ],
+   "stamp": "+$42 AL MES",
+   "stamp_at": 91
+  },
+  {
+   "start": 94,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "fuel",
+     "label": "COMBUSTIBLE",
+     "sub": "LA RAZÓN PRINCIPAL",
+     "at": 94,
+     "hl": true
+    }
+   ]
+  },
+  {
+   "start": 102,
+   "type": "compare",
+   "left": {
+    "icon": "meter",
+    "title": [
+     "TU",
+     "CONSUMO"
+    ],
+    "lines": [
+     "LO CONTROLAS TÚ"
+    ],
+    "at": 102
+   },
+   "right": {
+    "icon": "dollar",
+    "title": [
+     "EL",
+     "PRECIO"
+    ],
+    "lines": [
+     "NO LO CONTROLAS"
+    ],
+    "at": 107
+   },
+   "mid": "VS",
+   "mid_at": 106,
+   "winner": "left",
+   "emph_at": 108
+  },
+  {
+   "start": 110,
+   "type": "icons",
+   "items": [
+    {
+     "icon": "panel",
+     "label": "PRODUCE TU ENERGÍA",
+     "sub": "CAMBIA LA ECUACIÓN",
+     "at": 110,
+     "hl": true
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "lines": [
+   {
+    "text": "GASTAS LO MISMO",
+    "color": "w"
+   },
+   {
+    "text": "¿Y PAGAS MÁS?",
+    "color": "y",
+    "size": 180
+   }
+  ],
+  "sub": "POR QUÉ SUBE TU FACTURA DE LUZ."
+ },
+ "full_bleed": true
+}

@@ -1,485 +1,485 @@
 {
-  "timezone": "America/Puerto_Rico",
-  "instagram_account_id": "17841405483597181",
-  "windsor_connector": "instagram",
-  "episodes": [
-    {
-      "ep": "EP.001",
-      "slug": "ep001",
-      "title": "¿Quién gana dinero cuando se va la luz?",
-      "publish_at": "2026-11-26T02:55",
-      "status": "published",
-      "media_id": "18357131884255918"
-    },
-    {
-      "ep": "EP.002",
-      "slug": "ep002",
-      "title": "¿Por qué pagas LUMA si tienes placas solares?",
-      "publish_at": "2026-11-26T19:43",
-      "status": "published",
-      "media_id": "18647287822048496",
-      "published_at": "2026-11-26T23:45:52Z"
-    },
-    {
-      "ep": "EP.003",
-      "slug": "ep003",
-      "title": "Tu batería no produce electricidad",
-      "publish_at": "2026-11-27T12:43",
-      "status": "published",
-      "media_id": "18121911416113097",
-      "published_at": "2026-11-27T16:44:58Z"
-    },
-    {
-      "ep": "EP.004",
-      "slug": "ep004",
-      "title": "La verdad detrás de las placas solares gratis",
-      "publish_at": "2026-11-27T19:43",
-      "status": "published",
-      "media_id": "18123093979987831",
-      "published_at": "2026-11-27T23:47:13Z"
-    },
-    {
-      "ep": "EP.005",
-      "slug": "ep005",
-      "title": "¿Quién realmente es dueño de tu sistema solar?",
-      "publish_at": "2026-11-28T12:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.006",
-      "slug": "ep006",
-      "title": "¿Por qué dos vecinos pagan cantidades diferentes?",
-      "publish_at": "2026-11-28T19:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.007",
-      "slug": "ep007",
-      "title": "¿Cuánto cuesta producir electricidad en Puerto Rico?",
-      "publish_at": "2026-11-29T12:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.008",
-      "slug": "ep008",
-      "title": "El dinero que pierde tu nevera durante un apagón",
-      "publish_at": "2026-11-29T19:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.009",
-      "slug": "ep009",
-      "title": "¿Qué sucede si tu compañía solar desaparece?",
-      "publish_at": "2026-11-30T12:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.010",
-      "slug": "ep010",
-      "title": "La diferencia entre comprar y alquilar energía solar",
-      "publish_at": "2026-11-30T19:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.011",
-      "slug": "ep011",
-      "title": "El error más caro al comprar placas solares",
-      "publish_at": "2026-12-01T12:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.012",
-      "slug": "ep012",
-      "title": "¿Qué hace realmente Genera PR?",
-      "publish_at": "2026-12-01T19:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.013",
-      "slug": "ep013",
-      "title": "¿Quién controla el precio de tu electricidad?",
-      "publish_at": "2026-12-02T12:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.014",
-      "slug": "ep014",
-      "title": "El poder del Negociado de Energía",
-      "publish_at": "2026-12-02T19:43",
-      "status": "produced"
-    },
-    {
-      "ep": "EP.015",
-      "slug": "ep015",
-      "title": "¿Por qué tu factura de LUMA sube aunque gastes lo mismo?",
-      "pillar": "A",
-      "publish_at": "2026-11-28T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.016",
-      "slug": "ep016",
-      "title": "Cómo leer tu factura de luz en 60 segundos",
-      "pillar": "C",
-      "publish_at": "2026-11-28T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.017",
-      "slug": "ep017",
-      "title": "¿Qué es la cláusula de combustible y por qué la pagas tú?",
-      "pillar": "A",
-      "publish_at": "2026-11-29T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.018",
-      "slug": "ep018",
-      "title": "La deuda de la AEE: ¿quién la va a pagar?",
-      "pillar": "A",
-      "publish_at": "2026-11-29T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.019",
-      "slug": "ep019",
-      "title": "Un día sin luz en Puerto Rico, minuto a minuto",
-      "pillar": "X",
-      "publish_at": "2026-11-30T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.020",
-      "slug": "ep020",
-      "title": "Medición neta: el cambio que pocos entienden",
-      "pillar": "A",
-      "publish_at": "2026-11-30T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.021",
-      "slug": "ep021",
-      "title": "5 mitos de las placas solares en Puerto Rico",
-      "pillar": "A",
-      "publish_at": "2026-12-01T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.022",
-      "slug": "ep022",
-      "title": "Financiamiento solar: lo que mira el banco",
-      "pillar": "C",
-      "publish_at": "2026-12-01T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.023",
-      "slug": "ep023",
-      "title": "¿Qué hace la Junta de Control Fiscal con tu luz?",
-      "pillar": "A",
-      "publish_at": "2026-12-02T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.024",
-      "slug": "ep024",
-      "title": "¿Por qué Puerto Rico todavía quema combustible para generar luz?",
-      "pillar": "A",
-      "publish_at": "2026-12-02T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.025",
-      "slug": "ep025",
-      "title": "Lo que nadie te dice de la garantía de las baterías",
-      "pillar": "A",
-      "publish_at": "2026-12-03T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.026",
-      "slug": "ep026",
-      "title": "¿Cuántas placas necesitas realmente?",
-      "pillar": "C",
-      "publish_at": "2026-12-03T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.027",
-      "slug": "ep027",
-      "title": "¿Quién paga cuando LUMA falla?",
-      "pillar": "A",
-      "publish_at": "2026-12-03T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.028",
-      "slug": "ep028",
-      "title": "Si tu casa fuera una planta eléctrica",
-      "pillar": "X",
-      "publish_at": "2026-12-03T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.029",
-      "slug": "ep029",
-      "title": "El error de instalar placas sin revisar el techo",
-      "pillar": "A",
-      "publish_at": "2026-12-04T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.030",
-      "slug": "ep030",
-      "title": "¿Qué pasa con tus placas después de un huracán?",
-      "pillar": "A",
-      "publish_at": "2026-12-04T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.031",
-      "slug": "ep031",
-      "title": "La verdad sobre los vendedores puerta a puerta",
-      "pillar": "A",
-      "publish_at": "2026-12-04T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.032",
-      "slug": "ep032",
-      "title": "Caso real: de factura alta a factura mínima",
-      "pillar": "C",
-      "publish_at": "2026-12-04T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.033",
-      "slug": "ep033",
-      "title": "¿Qué es el cargo fijo y por qué no desaparece?",
-      "pillar": "A",
-      "publish_at": "2026-12-05T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.034",
-      "slug": "ep034",
-      "title": "Microrredes: el futuro energético de Puerto Rico",
-      "pillar": "A",
-      "publish_at": "2026-12-05T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.035",
-      "slug": "ep035",
-      "title": "Los permisos que necesita tu sistema solar",
-      "pillar": "A",
-      "publish_at": "2026-12-05T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.036",
-      "slug": "ep036",
-      "title": "Opinión: lo que cambiaría del sistema eléctrico de PR",
-      "pillar": "X",
-      "publish_at": "2026-12-05T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.037",
-      "slug": "ep037",
-      "title": "¿Por qué hay relevos de carga?",
-      "pillar": "A",
-      "publish_at": "2026-12-06T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.038",
-      "slug": "ep038",
-      "title": "El costo real de esperar para poner placas",
-      "pillar": "C",
-      "publish_at": "2026-12-06T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.039",
-      "slug": "ep039",
-      "title": "¿Las placas solares funcionan en días nublados?",
-      "pillar": "A",
-      "publish_at": "2026-12-06T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.040",
-      "slug": "ep040",
-      "title": "Lo que significa la interconexión con LUMA",
-      "pillar": "A",
-      "publish_at": "2026-12-06T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.041",
-      "slug": "ep041",
-      "title": "El contrato solar: cláusulas que debes revisar",
-      "pillar": "A",
-      "publish_at": "2026-12-07T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.042",
-      "slug": "ep042",
-      "title": "Inversor, batería y placas: qué hace cada parte",
-      "pillar": "C",
-      "publish_at": "2026-12-07T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.043",
-      "slug": "ep043",
-      "title": "¿Cuánto dura realmente un sistema solar?",
-      "pillar": "A",
-      "publish_at": "2026-12-07T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.044",
-      "slug": "ep044",
-      "title": "Fondos federales para energía en Puerto Rico: ¿dónde están?",
-      "pillar": "A",
-      "publish_at": "2026-12-07T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.045",
-      "slug": "ep045",
-      "title": "Mito o realidad: preguntas rápidas sobre energía solar",
-      "pillar": "X",
-      "publish_at": "2026-12-08T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.046",
-      "slug": "ep046",
-      "title": "¿Qué pasa si vendes tu casa con placas en leasing?",
-      "pillar": "A",
-      "publish_at": "2026-12-08T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.047",
-      "slug": "ep047",
-      "title": "Generadores vs baterías: lo que cuesta cada uno",
-      "pillar": "A",
-      "publish_at": "2026-12-08T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.048",
-      "slug": "ep048",
-      "title": "Cómo saber si una oferta solar es buena",
-      "pillar": "C",
-      "publish_at": "2026-12-08T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.049",
-      "slug": "ep049",
-      "title": "Por qué tu vecino no tuvo apagón y tú sí",
-      "pillar": "A",
-      "publish_at": "2026-12-09T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.050",
-      "slug": "ep050",
-      "title": "Cómo participar en una vista pública de energía",
-      "pillar": "A",
-      "publish_at": "2026-12-09T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.051",
-      "slug": "ep051",
-      "title": "Las placas no eliminan tu factura: aquí por qué",
-      "pillar": "A",
-      "publish_at": "2026-12-09T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.052",
-      "slug": "ep052",
-      "title": "Beneficios económicos de producir tu propia energía",
-      "pillar": "C",
-      "publish_at": "2026-12-09T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.053",
-      "slug": "ep053",
-      "title": "Medidores: cómo LUMA calcula tu consumo",
-      "pillar": "A",
-      "publish_at": "2026-12-10T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.054",
-      "slug": "ep054",
-      "title": "Simulación: tu consumo con y sin placas",
-      "pillar": "X",
-      "publish_at": "2026-12-10T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.055",
-      "slug": "ep055",
-      "title": "Señales de que tu sistema solar no está produciendo",
-      "pillar": "A",
-      "publish_at": "2026-12-10T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.056",
-      "slug": "ep056",
-      "title": "¿Quién decide el futuro energético de Puerto Rico?",
-      "pillar": "A",
-      "publish_at": "2026-12-10T19:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.057",
-      "slug": "ep057",
-      "title": "Qué preguntar antes de firmar con una compañía solar",
-      "pillar": "C",
-      "publish_at": "2026-12-11T08:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.058",
-      "slug": "ep058",
-      "title": "La meta de 100% renovable: ¿vamos bien?",
-      "pillar": "A",
-      "publish_at": "2026-12-11T12:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.059",
-      "slug": "ep059",
-      "title": "Mantenimiento solar: lo que te toca a ti",
-      "pillar": "A",
-      "publish_at": "2026-12-11T16:43",
-      "status": "planned"
-    },
-    {
-      "ep": "EP.060",
-      "slug": "ep060",
-      "title": "Las 3 preguntas que más me hacen sobre energía solar",
-      "pillar": "X",
-      "publish_at": "2026-12-11T19:43",
-      "status": "planned"
-    }
-  ],
-  "pillars": {
-    "A": "70% autoridad/viralidad",
-    "C": "20% comercial educativo (Profit Solar Energy)",
-    "X": "10% experimental"
+ "timezone": "America/Puerto_Rico",
+ "instagram_account_id": "17841405483597181",
+ "windsor_connector": "instagram",
+ "episodes": [
+  {
+   "ep": "EP.001",
+   "slug": "ep001",
+   "title": "¿Quién gana dinero cuando se va la luz?",
+   "publish_at": "2026-11-26T02:55",
+   "status": "published",
+   "media_id": "18357131884255918"
+  },
+  {
+   "ep": "EP.002",
+   "slug": "ep002",
+   "title": "¿Por qué pagas LUMA si tienes placas solares?",
+   "publish_at": "2026-11-26T19:43",
+   "status": "published",
+   "media_id": "18647287822048496",
+   "published_at": "2026-11-26T23:45:52Z"
+  },
+  {
+   "ep": "EP.003",
+   "slug": "ep003",
+   "title": "Tu batería no produce electricidad",
+   "publish_at": "2026-11-27T12:43",
+   "status": "published",
+   "media_id": "18121911416113097",
+   "published_at": "2026-11-27T16:44:58Z"
+  },
+  {
+   "ep": "EP.004",
+   "slug": "ep004",
+   "title": "La verdad detrás de las placas solares gratis",
+   "publish_at": "2026-11-27T19:43",
+   "status": "published",
+   "media_id": "18123093979987831",
+   "published_at": "2026-11-27T23:47:13Z"
+  },
+  {
+   "ep": "EP.005",
+   "slug": "ep005",
+   "title": "¿Quién realmente es dueño de tu sistema solar?",
+   "publish_at": "2026-11-28T12:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.006",
+   "slug": "ep006",
+   "title": "¿Por qué dos vecinos pagan cantidades diferentes?",
+   "publish_at": "2026-11-28T19:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.007",
+   "slug": "ep007",
+   "title": "¿Cuánto cuesta producir electricidad en Puerto Rico?",
+   "publish_at": "2026-11-29T12:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.008",
+   "slug": "ep008",
+   "title": "El dinero que pierde tu nevera durante un apagón",
+   "publish_at": "2026-11-29T19:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.009",
+   "slug": "ep009",
+   "title": "¿Qué sucede si tu compañía solar desaparece?",
+   "publish_at": "2026-11-30T12:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.010",
+   "slug": "ep010",
+   "title": "La diferencia entre comprar y alquilar energía solar",
+   "publish_at": "2026-11-30T19:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.011",
+   "slug": "ep011",
+   "title": "El error más caro al comprar placas solares",
+   "publish_at": "2026-12-01T12:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.012",
+   "slug": "ep012",
+   "title": "¿Qué hace realmente Genera PR?",
+   "publish_at": "2026-12-01T19:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.013",
+   "slug": "ep013",
+   "title": "¿Quién controla el precio de tu electricidad?",
+   "publish_at": "2026-12-02T12:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.014",
+   "slug": "ep014",
+   "title": "El poder del Negociado de Energía",
+   "publish_at": "2026-12-02T19:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.015",
+   "slug": "ep015",
+   "title": "¿Por qué tu factura de LUMA sube aunque gastes lo mismo?",
+   "pillar": "A",
+   "publish_at": "2026-11-28T08:43",
+   "status": "produced"
+  },
+  {
+   "ep": "EP.016",
+   "slug": "ep016",
+   "title": "Cómo leer tu factura de luz en 60 segundos",
+   "pillar": "C",
+   "publish_at": "2026-11-28T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.017",
+   "slug": "ep017",
+   "title": "¿Qué es la cláusula de combustible y por qué la pagas tú?",
+   "pillar": "A",
+   "publish_at": "2026-11-29T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.018",
+   "slug": "ep018",
+   "title": "La deuda de la AEE: ¿quién la va a pagar?",
+   "pillar": "A",
+   "publish_at": "2026-11-29T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.019",
+   "slug": "ep019",
+   "title": "Un día sin luz en Puerto Rico, minuto a minuto",
+   "pillar": "X",
+   "publish_at": "2026-11-30T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.020",
+   "slug": "ep020",
+   "title": "Medición neta: el cambio que pocos entienden",
+   "pillar": "A",
+   "publish_at": "2026-11-30T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.021",
+   "slug": "ep021",
+   "title": "5 mitos de las placas solares en Puerto Rico",
+   "pillar": "A",
+   "publish_at": "2026-12-01T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.022",
+   "slug": "ep022",
+   "title": "Financiamiento solar: lo que mira el banco",
+   "pillar": "C",
+   "publish_at": "2026-12-01T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.023",
+   "slug": "ep023",
+   "title": "¿Qué hace la Junta de Control Fiscal con tu luz?",
+   "pillar": "A",
+   "publish_at": "2026-12-02T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.024",
+   "slug": "ep024",
+   "title": "¿Por qué Puerto Rico todavía quema combustible para generar luz?",
+   "pillar": "A",
+   "publish_at": "2026-12-02T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.025",
+   "slug": "ep025",
+   "title": "Lo que nadie te dice de la garantía de las baterías",
+   "pillar": "A",
+   "publish_at": "2026-12-03T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.026",
+   "slug": "ep026",
+   "title": "¿Cuántas placas necesitas realmente?",
+   "pillar": "C",
+   "publish_at": "2026-12-03T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.027",
+   "slug": "ep027",
+   "title": "¿Quién paga cuando LUMA falla?",
+   "pillar": "A",
+   "publish_at": "2026-12-03T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.028",
+   "slug": "ep028",
+   "title": "Si tu casa fuera una planta eléctrica",
+   "pillar": "X",
+   "publish_at": "2026-12-03T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.029",
+   "slug": "ep029",
+   "title": "El error de instalar placas sin revisar el techo",
+   "pillar": "A",
+   "publish_at": "2026-12-04T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.030",
+   "slug": "ep030",
+   "title": "¿Qué pasa con tus placas después de un huracán?",
+   "pillar": "A",
+   "publish_at": "2026-12-04T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.031",
+   "slug": "ep031",
+   "title": "La verdad sobre los vendedores puerta a puerta",
+   "pillar": "A",
+   "publish_at": "2026-12-04T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.032",
+   "slug": "ep032",
+   "title": "Caso real: de factura alta a factura mínima",
+   "pillar": "C",
+   "publish_at": "2026-12-04T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.033",
+   "slug": "ep033",
+   "title": "¿Qué es el cargo fijo y por qué no desaparece?",
+   "pillar": "A",
+   "publish_at": "2026-12-05T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.034",
+   "slug": "ep034",
+   "title": "Microrredes: el futuro energético de Puerto Rico",
+   "pillar": "A",
+   "publish_at": "2026-12-05T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.035",
+   "slug": "ep035",
+   "title": "Los permisos que necesita tu sistema solar",
+   "pillar": "A",
+   "publish_at": "2026-12-05T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.036",
+   "slug": "ep036",
+   "title": "Opinión: lo que cambiaría del sistema eléctrico de PR",
+   "pillar": "X",
+   "publish_at": "2026-12-05T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.037",
+   "slug": "ep037",
+   "title": "¿Por qué hay relevos de carga?",
+   "pillar": "A",
+   "publish_at": "2026-12-06T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.038",
+   "slug": "ep038",
+   "title": "El costo real de esperar para poner placas",
+   "pillar": "C",
+   "publish_at": "2026-12-06T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.039",
+   "slug": "ep039",
+   "title": "¿Las placas solares funcionan en días nublados?",
+   "pillar": "A",
+   "publish_at": "2026-12-06T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.040",
+   "slug": "ep040",
+   "title": "Lo que significa la interconexión con LUMA",
+   "pillar": "A",
+   "publish_at": "2026-12-06T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.041",
+   "slug": "ep041",
+   "title": "El contrato solar: cláusulas que debes revisar",
+   "pillar": "A",
+   "publish_at": "2026-12-07T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.042",
+   "slug": "ep042",
+   "title": "Inversor, batería y placas: qué hace cada parte",
+   "pillar": "C",
+   "publish_at": "2026-12-07T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.043",
+   "slug": "ep043",
+   "title": "¿Cuánto dura realmente un sistema solar?",
+   "pillar": "A",
+   "publish_at": "2026-12-07T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.044",
+   "slug": "ep044",
+   "title": "Fondos federales para energía en Puerto Rico: ¿dónde están?",
+   "pillar": "A",
+   "publish_at": "2026-12-07T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.045",
+   "slug": "ep045",
+   "title": "Mito o realidad: preguntas rápidas sobre energía solar",
+   "pillar": "X",
+   "publish_at": "2026-12-08T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.046",
+   "slug": "ep046",
+   "title": "¿Qué pasa si vendes tu casa con placas en leasing?",
+   "pillar": "A",
+   "publish_at": "2026-12-08T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.047",
+   "slug": "ep047",
+   "title": "Generadores vs baterías: lo que cuesta cada uno",
+   "pillar": "A",
+   "publish_at": "2026-12-08T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.048",
+   "slug": "ep048",
+   "title": "Cómo saber si una oferta solar es buena",
+   "pillar": "C",
+   "publish_at": "2026-12-08T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.049",
+   "slug": "ep049",
+   "title": "Por qué tu vecino no tuvo apagón y tú sí",
+   "pillar": "A",
+   "publish_at": "2026-12-09T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.050",
+   "slug": "ep050",
+   "title": "Cómo participar en una vista pública de energía",
+   "pillar": "A",
+   "publish_at": "2026-12-09T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.051",
+   "slug": "ep051",
+   "title": "Las placas no eliminan tu factura: aquí por qué",
+   "pillar": "A",
+   "publish_at": "2026-12-09T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.052",
+   "slug": "ep052",
+   "title": "Beneficios económicos de producir tu propia energía",
+   "pillar": "C",
+   "publish_at": "2026-12-09T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.053",
+   "slug": "ep053",
+   "title": "Medidores: cómo LUMA calcula tu consumo",
+   "pillar": "A",
+   "publish_at": "2026-12-10T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.054",
+   "slug": "ep054",
+   "title": "Simulación: tu consumo con y sin placas",
+   "pillar": "X",
+   "publish_at": "2026-12-10T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.055",
+   "slug": "ep055",
+   "title": "Señales de que tu sistema solar no está produciendo",
+   "pillar": "A",
+   "publish_at": "2026-12-10T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.056",
+   "slug": "ep056",
+   "title": "¿Quién decide el futuro energético de Puerto Rico?",
+   "pillar": "A",
+   "publish_at": "2026-12-10T19:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.057",
+   "slug": "ep057",
+   "title": "Qué preguntar antes de firmar con una compañía solar",
+   "pillar": "C",
+   "publish_at": "2026-12-11T08:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.058",
+   "slug": "ep058",
+   "title": "La meta de 100% renovable: ¿vamos bien?",
+   "pillar": "A",
+   "publish_at": "2026-12-11T12:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.059",
+   "slug": "ep059",
+   "title": "Mantenimiento solar: lo que te toca a ti",
+   "pillar": "A",
+   "publish_at": "2026-12-11T16:43",
+   "status": "planned"
+  },
+  {
+   "ep": "EP.060",
+   "slug": "ep060",
+   "title": "Las 3 preguntas que más me hacen sobre energía solar",
+   "pillar": "X",
+   "publish_at": "2026-12-11T19:43",
+   "status": "planned"
   }
+ ],
+ "pillars": {
+  "A": "70% autoridad/viralidad",
+  "C": "20% comercial educativo (Profit Solar Energy)",
+  "X": "10% experimental"
+ }
 }
